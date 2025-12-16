@@ -1,0 +1,61 @@
+{
+  "app_settings": {
+    "app_name": "EyeCare AI Pro",
+    "version": "1.0.0",
+    "auto_start": false,
+    "minimize_to_tray": false,
+    "start_minimized": false
+  },
+  "break_settings": {
+    "work_interval_minutes": 1,
+    "break_duration_seconds": 20,
+    "enable_breaks": true,
+    "break_sound_enabled": true,
+    "auto_pause_on_idle": true,
+    "idle_threshold_minutes": 5
+  },
+  "light_monitoring": {
+    "enabled": false,
+    "camera_index": 0,
+    "check_interval_seconds": 120,
+    "optimal_lux_min": 300,
+    "optimal_lux_max": 500,
+    "auto_adjust_brightness": false,
+    "warning_threshold_lux": 100
+  },
+  "ai_settings": {
+    "enabled": true,
+    "model": "meta-llama/llama-3.1-8b-instruct",
+    "temperature": 0.3,
+    "max_tokens": 500,
+    "cache_recommendations": true,
+    "cache_duration_minutes": 30,
+    "persona": "optometrist"
+  },
+  "ui_settings": {
+    "theme": "dark",
+    "window_width": 900,
+    "window_height": 700,
+    "show_notifications": true,
+    "notification_duration_seconds": 10,
+    "transparency": 1.0
+  },
+  "analytics": {
+    "enabled": true,
+    "track_screen_time": true,
+    "track_break_compliance": true,
+    "track_light_conditions": true,
+    "export_enabled": true
+  },
+  "exercises": {
+    "enable_guided_exercises": true,
+    "exercise_types": ["20-20-20", "eye_roll", "focus_shift", "palming"],
+    "voice_guidance": false
+  },
+  "advanced": {
+    "log_level": "INFO",
+    "enable_eye_tracking": false,
+    "hardware_sensor_enabled": false,
+    "blue_light_filter_auto": false
+  }
+}
